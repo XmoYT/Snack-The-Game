@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classic Browser Snake Game</title>
+    <title>Snack</title>
     <style>
         body {
             background-color: #111;
@@ -28,7 +28,7 @@
 </head>
 <body>
 
-    <h1>Snake Game</h1>
+    <h1>Snack</h1>
     <div id="score">Score: 0</div>
     <canvas id="gameCanvas" width="400" height="400"></canvas>
 
@@ -46,7 +46,7 @@
         let dy = 0;  // Vertical velocity
         let score = 0;
         let gameInterval;
-        const gameSpeed = 1000; // Milliseconds per frame (lower = faster)
+        const gameSpeed = 10000; // Milliseconds per frame (lower = faster)
 
         function main() {
             if (hasGameEnded()) {
